@@ -4,7 +4,7 @@ body, html{
     background-color:#952c4a;
   }
   
-  .hero-image{ 
+  .hero-image{ /*replace hero image with gallery images*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(https://cdn.glitch.com/b25323e4-5358-4e16-a518-b192b56164a3%2Ftyler-nix-X2kzxjl3bzE-unsplash.jpg?v=1563245923737);
     height: 150%;

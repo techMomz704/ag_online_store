@@ -1,7 +1,7 @@
 body,
 html {
   height: 100%;
-  margin: 50px;
+  margin: 0 20px 0 20px;
   background-color: #952c4a;
 }
 
@@ -42,7 +42,7 @@ html {
 }
 
 span {
-  text-align: right;
+  /* text-align: right; */
   /* padding: 50px; */
 }
 
@@ -56,7 +56,11 @@ header {
   width: 100%;
 }
 
-h1 {
+.header-title {
+  /* font: "Allura"; */
+}
+
+.d-flex h4 {
   text-align: center;
   font-family: "Allura";
 }

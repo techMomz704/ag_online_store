@@ -76,6 +76,12 @@ html {
 
 .carousel {
   width: 100%;
+  /* text-align: center; */
+}
+
+.carousel-item img {
+  max-width: 50%;
+  max-height: 50%;
   text-align: center;
 }
 
@@ -159,6 +165,6 @@ a {
   font-weight: 500;
 }
 
-ul{
+ul {
   list-style: none;
 }

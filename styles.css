@@ -20,10 +20,11 @@ html {
   float: left;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 10px 14px 0;
   text-decoration: none;
-  font-size: 25px;
-  font-family: "Comic Sans MS, cursive, sans-serif";
+  font-size: 20px;
+  font-family: Allura;
+  width: 12%;
 }
 
 .topnav a:hover {
@@ -73,8 +74,9 @@ html {
   border-color: #8c52ff;
 }
 
-.carousel-item {
-  width: 50%;
+.carousel {
+  width: 100%;
+  text-align: center;
 }
 
 /* Cards */
@@ -135,6 +137,10 @@ footer {
 
 footer a {
   color: #8c52ff;
+}
+
+footer h3 {
+  font-family: Playlist;
 }
 
 .fab {

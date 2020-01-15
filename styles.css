@@ -24,7 +24,7 @@ html {
   text-decoration: none;
   font-size: 18px;
   font-family: Allura;
-  width: 12%;
+  width: 10%;
 }
 
 .topnav a:hover {
@@ -75,20 +75,27 @@ html {
 }
 
 .sliding-images {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+.carousel {
   max-width: 50%;
   max-height: 100%;
-
+  position: sticky;
   margin: auto;
   text-align: center;
   padding: 20px;
 }
 
-.sliding-images > div {
+/* .sliding-images > div {
   top: 10px;
   left: 10px;
   right: 10px;
   bottom: 10px;
-}
+} */
 
 /* Cards */
 * {
@@ -109,7 +116,7 @@ html {
 .card-body p {
   color: #8c52ff;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -143,51 +150,46 @@ html {
 
 /*Footer Info*/
 
-/* .brandText {
-  margin-top: 60px;
-  padding-left: 60px;
-} */
-
 footer {
-  display: block;
+  display: grid;
   background-color: #e3f2fd;
   color: #8c52ff;
   font-family: Allura;
+  grid-row-gap: 1.5rem;
+  justify-items: center;
+  text-align: center;
 }
 
 footer a {
   color: #8c52ff;
 }
 
-footer h3 {
+/* footer h3 {
   font-family: Playlist;
-}
+} */
 
 .fab {
-  padding: 10px 20px 20px 0;
+  padding: 0 20px 20px 0;
   font-size: 30px;
 }
 
 .logo {
-  width: 80%;
-  height: 60%;
+  padding: 20px;
 }
 
 .col-lg-4 {
   margin-top: 60px;
-  padding-left: 60px;
+  /* padding-left: 60px; */
 }
 
 .col-lg-4 a {
   text-decoration: none;
 }
 
-/* h5,
-a {
-  color: white;
-  font-size: 1.25rem;
-  font-weight: 500;
-} */
+.col-lg-4 img {
+  width: 50%;
+  height: 50%;
+}
 
 ul {
   list-style: none;
@@ -195,6 +197,7 @@ ul {
 
 .copyright {
   text-align: right;
+  padding: 0 20px 0 0;
 }
 
 #contact {

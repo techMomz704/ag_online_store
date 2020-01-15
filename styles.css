@@ -188,5 +188,14 @@ ul {
 }
 
 .copyright {
-  text-align: center;
+  text-align: right;
+}
+
+#contactInfo{
+  font-size: 18px;
+}
+
+button{
+  background-color: #8c52ff;
+  color: white;
 }

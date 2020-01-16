@@ -197,7 +197,8 @@ footer a {
 }
 
 .logo {
-  padding: 20px;
+  margin-left: 35px;
+  margin-top: 25px;
 }
 
 .col-lg-4 {
@@ -213,6 +214,7 @@ footer a {
   width: 50%;
   height: 50%;
 }
+
 
 ul {
   list-style: none;

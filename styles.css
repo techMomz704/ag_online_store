@@ -46,7 +46,6 @@ html {
   .topnav a:not(:first-child) {
     display: none;
   }
-
   .topnav a.icon {
     float: right;
     display: block;
@@ -57,13 +56,11 @@ html {
   .topnav.responsive {
     position: relative;
   }
-
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-
   .topnav.responsive a {
     float: none;
     display: block;
@@ -105,7 +102,6 @@ html {
   box-sizing: border-box;
 }
 
-
 .card-container {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -121,27 +117,6 @@ html {
   color: #8c52ff;
   font-weight: 500;
   font-size: 24px;
-}
-
-.custImages{
-  width:100%;
-  max-height:90%;
-  border: solid 5px #8c52ff;
-}
-
-.custName{
-  font-weight: 900;
-
-}
-
-#imgHeight1, #imageHeight3{
-  height: 217px;
-  width: 217px;
-}
-
-#imageHeight2{
-  height: 217px;
-  width: 222px;
 }
 
 /* Remove extra left and right margins, due to padding */

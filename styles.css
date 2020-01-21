@@ -122,25 +122,25 @@ html {
   font-size: 24px;
 }
 
-.custImages{
+.custImages {
   border: solid 5px #8c52ff;
 }
 
-#imgHeight1, #imgHeight3 {
+#imgHeight1,
+#imgHeight3 {
   width: 217px;
   height: 217px;
 }
 
-#imgHeight2{
+#imgHeight2 {
   width: 218px;
   height: 212px;
 }
 
-.custName{
+.custName {
   font-weight: 500;
   font-size: 18px;
 }
-
 
 /* Remove extra left and right margins, due to padding */
 .row {
@@ -149,7 +149,7 @@ html {
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -215,7 +215,6 @@ footer a {
   height: 50%;
 }
 
-
 ul {
   list-style: none;
 }
@@ -233,10 +232,43 @@ ul {
   font-size: 18px;
 }
 
-button {
+button, #dropdownMenuButton {
   background-color: #8c52ff;
   color: white;
 }
+
+.cardImages {
+  border: 5px solid transparent;
+  border-color: #8c52ff;
+}
+
+#imgPage {
+  height: 380px;
+  width: 300px;
+  margin-left: 15%;
+  margin-top: 20%;
+  border: solid 5px #8c52ff;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 25px;
+  color: #8c52ff;
+  margin-right: 35%;
+  margin-top: 20%;
+}
+.homeLink {
+  color: #8c52ff;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 5%;
+}
+
+.itemDescription{
+  font-size: 15px;
+}
+
 
 /* @media screen and (max-width: 600px) {
   .col-lg-4 {
